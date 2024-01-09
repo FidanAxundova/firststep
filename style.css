@@ -205,6 +205,8 @@ section .birinci-hisse{
 .bewinci-hisse{
     margin-top: 142px;
     background-color: #191919;
+    padding-top: 83px;
+    padding-bottom: 102px;
 }
 .bewinci-hisse h1{
     font-size: 24px;
@@ -236,10 +238,11 @@ section .birinci-hisse{
 
 
 }
-.bewinci-hisse .ashagi-hisse .sol-teref span{
+.bewinci-hisse .ashagi-hisse .sol-teref a{
     font-size: 14px;
     font-weight: 300;
     color: #C5C5C5;
+    text-decoration: none;
    
 
 }
@@ -250,8 +253,14 @@ section .birinci-hisse{
 .son-hisse .info{
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin-top: 42px;
+
     gap: 27px;
 
 }   
 
+.smt{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
